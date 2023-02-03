@@ -1,0 +1,10 @@
+.search-form{
+  height: 45px;
+  width: 300px;
+}
+.search-form button{
+  padding: 10px 30px;
+}
+.search-form .fa-search{
+  padding: 5px 10px;
+}

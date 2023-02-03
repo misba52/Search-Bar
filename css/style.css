@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.content{
+  height: 100vh;
+  width: 100℅;
+  background: rgba(0,0,0,0.1);
+  background-image: url('../img/bg4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-form{
+  background: #fff;
+  height: 55px;
+  width: 600px;
+  display: flex;
+}
+.search-form input{
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.search-form button{
+  background: tomato;
+  color: #fff;
+  border: none;
+  padding: 10px 50px;
+  transition: 0.5s;
+}
+.search-form button:hover{
+  background: #ff7a00;
+}
+.search-form .fa-search{
+  align-self: center;
+  padding: 10px 20px;
+}
